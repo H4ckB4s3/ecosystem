@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/img/hns.ico" type="image/x-icon">
+    <script src="script.js" defer></script>
+    <!-- Meta Description for Search Engines -->
+    <meta name="description" content="Explore the HNS Ecosystem. Discover wallets, browsers, marketplaces, miners, and documentation to enhance your Handshake experience.">
+
+    <!-- Meta Keywords for the HNS Ecosystem -->
+    <meta name="keywords" content="Handshake, HNS Ecosystem, Handshake blockchain, HNS wallets, HNS marketplaces, HNS miners, HNS browsers, Handshake tools">
+
+    <!-- Open Graph Meta Tags for Social Media Sharing -->
+    <meta property="og:title" content="HNS Ecosystem - Explore Handshake Tools and Resources">
+    <meta property="og:description" content="Discover resources like wallets, browsers, and marketplaces within the Handshake ecosystem. Enhance your HNS journey.">
+    <meta property="og:image" content="https://qpu.hns.to/img/ecosystem.jpg"> <!-- Replace with actual image -->
+    <meta property="og:url" content="http://ecosystem.hns.to">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="HNS Ecosystem - Explore Handshake Tools and Resources">
+    <meta name="twitter:description" content="Find tools, wallets, and browsers to make the most of the Handshake blockchain ecosystem.">
+    <meta name="twitter:image" content="https://qpu.hns.to/img/ecosystem.jpg">
+
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Canonical Link for SEO Best Practices -->
+    <link rel="canonical" href="http://ecosystem.hns.to">
+    <title>HNS Ecosystem</title>
+    <script src="script.js" defer></script>
+    <link rel="shortcut icon" href="/img/hns.ico" type="image/x-icon">
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body Styling */
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: 'Courier New', Courier, monospace;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+            overflow-y: auto; /* Enable page scrolling */
+            padding: 10px 0;
+        }
+
+        /* Main Container */
+        .container {
+            width: 90%;
+            max-width: 1400px;
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 10px;
+            padding: 10px 0;
+        }
+
+        /* Header Section */
+        .header {
+            grid-column: span 12;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            font-size: 1.5em;
+            text-transform: uppercase;
+            border-bottom: 1px solid #fff;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+
+        /* Main Content */
+        .main-content {
+            grid-column: span 12;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 10px;
+        }
+
+        /* Category Block Styling */
+        .category {
+            background: #000;
+            padding: 1em;
+            border: 1px solid #fff;
+            color: #fff;
+            font-size: 1.1em;
+            transition: transform 0.2s;
+        }
+        
+        /* Category Header */
+        .category h2 {
+            font-size: 1.5em;
+            color: #fff;
+            border-bottom: 1px solid #fff;
+            padding-bottom: 0.5em;
+            margin-bottom: 0.5em;
+            font-family: inherit;
+        }
+
+        /* Links inside category */
+        .category a {
+            display: block;
+            color: #fff;
+            text-decoration: none;
+            margin: 0.4em 0;
+            transition: color 0.2s, transform 0.2s;
+        }
+
+        .category a:hover {
+            color: #0ff;
+            transform: scale(1.05);
+        }
+
+        /* Footer Section */
+        .footer {
+            grid-column: span 12;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 10px;
+            border-top: 1px solid #fff;
+            font-size: 1.2em;
+            margin-top: 10px; /* Space between content and footer */
+        }
+
+        /* Footer HNS Link */
+        .footer a.hns-link {
+            color: #0ff;
+            text-decoration: none;
+        }
+
+        /* GitHub Button Styling */
+        .blackmore-button {
+            background: #fff;
+            color: #000;
+            border: none;
+            padding: 0.22em 0.3em;
+            font-size: 1em;
+            cursor: pointer;
+            text-transform: uppercase;
+            text-decoration: none;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .blackmore-button:hover {
+            background: #ccc;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <div>HNS Ecosystem</div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Category Blocks (Example) -->
+            
+
+        <!-- Category: About -->
+        <div class="category">
+            <h2>About</h2>
+            <a href="https://handshake.org/" target="_blank">handshake.org</a>
+            <a href="https://handshake.org/files/handshake.txt" target="_blank">whitepaper</a>
+            <a href="https://github.com/handshake-org/hsd" target="_blank">full Node</a>
+            <a href="https://github.com/handshake-org/hnsd" target="_blank">light client</a>
+        </div>
+        
+        <!-- Category: Explorer -->
+        <div class="category">
+            <h2>Explorer</h2>
+            <a href="https://shakeshift.com" target="_blank">hns.cymon.de</a>
+            <a href="https://e.hnsfans.com" target="_blank">e.hnsfans.com</a>
+            <a href="https://3xpl.com" target="_blank">3xpl.com</a>
+            <a href="https://www.niami.io" target="_blank">niami.io</a>
+        </div>
+
+        <!-- Category: Exchanges -->
+        <div class="category">
+            <h2>Exchanges</h2>
+            <a href="https://www.namebase.io/register/kbhk15" target="_blank">namebase.io</a>
+            <a href="https://www.gate.io" target="_blank">gate.io</a>
+            <a href="https://www.coinex.com" target="_blank">coinex.com</a>
+        </div>
+
+        <!-- Category: Wallets -->
+        <div class="category">
+            <h2>Wallets</h2>
+            <a href="https://bobwallet.io/" target="_blank">bobwallet.io</a>
+            <a href="https://www.fxwallet.com/" target="_blank">fxwallet.com</a>
+            <a href="https://wallet.coinex.com/en/" target="_blank">coinex.com</a>
+            <a href="https://firewallet.au/" target="_blank">firewallet.au</a>
+        </div>
+
+        <!-- Category: Browsers -->
+        <div class="category">
+            <h2>Browsers</h2>
+            <a href="https://alohabrowser.com/" target="_blank">alohabrowser.com</a>
+            <a href="https://carbon.website/" target="_blank">carbon.website</a>
+            <a href="https://masqbrowser.com/" target="_blank">masqbrowser.com</a>
+            <a href="https://github.com/imperviousinc/beacon" target="_blank">Beacon</a>
+        </div>
+
+        <!-- Category: Marketplace -->
+        <div class="category">
+            <h2>Marketplace</h2>
+            <a href="https://www.namebase.io/register/kbhk15" target="_blank">namebase.io</a>
+            <a href="https://shakestation.io/" target="_blank">shakestation.io</a>
+            <a href="https://dename.id/" target="_blank">dename.id</a>
+        </div>
+
+        <!-- Category: Miners -->
+        <div class="category">
+            <h2>Miners</h2>
+            <a href="https://shop.bitmain.com/product/detail?pid=00020210902144421386CrJumzFl0699" target="_blank">bitmain.com</a>
+            <a href="https://www.goldshell.com/hsbox/" target="_blank">goldshell.com</a>
+        </div>
+
+        <!-- Category: Pools -->
+        <div class="category">
+            <h2>Pools</h2>
+            <a href="https://www.antpool.com" target="_blank">antpool.com</a>
+            <a href="https://www.viabtc.com/" target="_blank">viabtc.com</a>
+            <a href="https://www.mining-dutch.nl/" target="_blank">mining-dutch.nl</a>
+            <a href="https://www.dxpool.com/" target="_blank">dxpool.com</a>
+        </div>
+
+        <!-- Category: Resolver -->
+        <div class="category">
+            <h2>Resolver</h2>
+            <a href="https://welcome.hnsdoh.com/" target="_blank">hnsdoh.com</a>
+            <a href="https://hnsdns.com/" target="_blank">hnsdns.com</a>
+            <a href="https://www.hdns.io/" target="_blank">hdns.io</a>
+            <a href="https://github.com/randomlogin/fingertip" target="_blank">fingertip (SANE)</a>
+            <a href="https://hnsns.net/" target="_blank">hnsns.net (IOS)</a>
+        </div>
+
+        <!-- Category: Nameserver -->
+        <div class="category">
+            <h2>Nameserver</h2>
+            <a href="https://varo.domains/" target="_blank">varo.domains</a>
+            <a href="https://dnsimple.com/" target="_blank">dnsimple.com</a>
+            <a href="https://github.com/pinheadmz/handout" target="_blank">handout</a>
+        </div>
+        
+        <!-- Category: Tools -->
+        <div class="category">
+            <h2>Tools</h2>
+            <a href="https://shakeshift.com/names/expired" target="_blank">expired names</a>
+            <a href="https://shakeshift.com/names/expiring" target="_blank">expiring names</a>
+            <a href="https://htools.work/" target="_blank">htools</a>
+            <a href="https://status.easyhns.com/" target="_blank">easyhns</a>
+            <a href="https://renew.hns.au/" target="_blank">any renew</a>
+        </div>
+
+        <!-- Category: Documentation -->
+        <div class="category">
+            <h2>Documentation</h2>
+            <a href="https://learn.namebase.io/" target="_blank">learn.namebase.io</a>
+            <a href="https://hsd-dev.org/" target="_blank">hsd-dev.org</a>
+            <a href="https://easyhandshake.com/" target="_blank">easyhandshake.com</a>
+            <a href="https://handypedia.org/" target="_blank">handypedia.org</a>
+        </div>
+        
+        <!-- Category: SLD -->
+        <div class="category">
+            <h2>SLD</h2>
+            <a href="https://www.namecheap.com/domains/handshake-domains/" target="_blank">namecheap.com</a>
+            <a href="https://porkbun.com/handshake" target="_blank">porkbun.com</a>
+            <a href="https://www.encirca.com/handshake/" target="_blank">encirca.com</a>
+            <a href="https://agaamin.in/" target="_blank">agaamin.in</a>
+            <a href="https://varo.domains/" target="_blank">varo.domains</a>
+            <a href="https://nicenic.net/domain/handshake.php" target="_blank">nicenic.net</a>
+        </div>
+        
+        <!-- Category: dSLD -->
+        <div class="category">
+            <h2>dSLD</h2>
+            <a href="https://hns.id" target="_blank">hns.id</a>
+            <a href="https://impervious.domains/" target="_blank">impervious.domains</a>
+            <a href="https://foreverdomains.io/" target="_blank">foreverdomains.io</a>
+            <a href="https://www.digitalis.domains/" target="_blank">digitalis.domains</a>
+        </div>
+        
+         <!-- Category: Web2 Bridge -->
+        <div class="category">
+            <h2>Web2 Bridge</h2>
+            <a href="https://hns.to/ target="_blank">hns.to</a>
+            <a href="https://rsvr.xyz/" target="_blank">rsvr.xyz</a>
+            <a href="https://dsearch.org" target="_blank">dsearch.org</a>
+        </div>
+
+        <!-- Category: Stats -->
+        <div class="category">
+            <h2>Stats</h2>
+            <a href="https://shakeshift.com/stats" target="_blank">shakeshift</a>
+            <a href="https://www.theshake.xyz/stats" target="_blank">theshake.xyz</a>
+            <a href="https://hsdnethealth.nodech.dev/" target="_blank">hsdnethealth</a>
+        </div>
+
+        <!-- Category: VPN -->
+        <div class="category">
+            <h2>VPN</h2>
+            <a href="https://sentinel.co" target="_blank">sentinel.co</a>
+            <a href="https://dvpn.solar/" target="_blank">dvpn.solar</a>
+            <a href="https://masqbrowser.com/" target="_blank">masqbrowser.com</a>
+        </div>
+        
+        <!-- Category: Hosting -->
+        <div class="category">
+            <h2>Hosting</h2>
+            <a href="https://hnshosting.au/" target="_blank">hnshosting.au</a>
+            <a href="https://links.hns.au/" target="_blank">links.hns.au</a>
+            <a href="https://www.linode.com/lp/refer/?r=02f0bc9980b2bad43198d49b43001e25f696ca6f" target="_blank">linode.com</a>
+        </div>
+        
+        <!-- Category: News -->
+        <div class="category">
+            <h2>News</h2>
+            <a href="https://skyinclude.com/blog/" target="_blank">skyinclude.com</a>
+            <a href="https://www.theshake.xyz/" target="_blank">theshake.xyz</a>
+            <a href="https://hns.au/blog" target="_blank">hns.au</a>
+        </div>
+        
+        <!-- Category: Community -->
+        <div class="category">
+            <h2>Community</h2>
+            <a href="https://t.me/handshake_hns" target="_blank">telegram</a>
+            <a href="https://t.me/hns_tech" target="_blank">telegram Dev</a>
+            <a href="https://discord.gg/8YgvygxJd2" target="_blank">Discord</a>
+        </div>
+
+            <!-- More categories... -->
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div>POWERED BY <a href="https://handshake.org" target="_blank" class="hns-link">HNS</a></div>
+            <a href="http://repos.qpu.hns.to/" target="_blank" class="blackmore-button">Github Repos</a>
+        </div>
+    </div>
+</body>
+</html>
